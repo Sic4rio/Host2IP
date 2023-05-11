@@ -1,6 +1,6 @@
 # Host2IP
 <p align="center">
-  <img src="https://github.com/Sic4rio/Host2IP/blob/main/ezgif-2-282ec4b32b.gif?raw=true" width="600" height="600" />
+  <img src="https://github.com/Sic4rio/Host2IP/blob/main/ezgif-2-282ec4b32b.gif?raw=true" width="600" height="500" />
 </p>
 >
 
