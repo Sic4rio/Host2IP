@@ -1,7 +1,8 @@
 # Host2IP
-<div style="display: flex; justify-content:  right;">
+<p align="center">
   <img src="https://media.giphy.com/media/l49JMe9WDPzJTamwE/giphy.gif" width="400" height="200" />
-</div>
+</p>
+>
 
 
 
