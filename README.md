@@ -1,14 +1,13 @@
 # Host2IP
 Bash script to convert a .txt file of Domains/URL's to IP Addresses in a seperate .txt file 
 
-bash
 
+```
 #!/bin/bash
-
+```
 This line is called the shebang and specifies the interpreter to be used for executing the script, in this case, /bin/bash.
 
-bash
-
+```
 # Check if an argument was provided
 if [ $# -eq 0 ]; then
   echo "Please provide a .txt file as an argument."
@@ -17,10 +16,10 @@ fi
 
 input_file="$1"
 output_file="Host-IP.txt"
-
+```
 These lines check if an argument (the input file) was provided when running the script. If no argument is provided, it displays an error message and exits the script with a non-zero status. The provided argument is assigned to the input_file variable, and the output_file variable is set to "Host-IP.txt".
 
-bash
+```
 
 # Check if the input file exists
 if [ ! -f "$input_file" ]; then
@@ -30,14 +29,14 @@ fi
 
 This section checks if the input file exists. If the file does not exist, it displays an error message and exits the script.
 
-bash
+```
 
 # Create an empty output file
 > "$output_file"
 
 This line creates an empty output file or overwrites the existing file if it already exists.
 
-bash
+```
 
 # Resolve IP addresses from each line in the input file
 while IFS= read -r line; do
@@ -62,7 +61,7 @@ while IFS= read -r line; do
   fi
 
 done < "$input_file"
-
+```
 This is the main loop that reads each line from the input file and resolves the IP address for the corresponding URL. Here's what it does:
 
     The IFS= read -r line command reads a line from the input file and stores it in the line variable.
@@ -72,11 +71,11 @@ This is the main loop that reads each line from the input file and resolves the 
     If an IP address is successfully resolved, it is echoed to the console and appended to the output file using >>.
     If the IP address resolution fails, an error message is displayed.
 
-bash
+```
 
 # Remove the lines with "Failed to resolve" from the output file
 sed -i '/Failed to resolve/d' "$output_file"
-
+```
 This line uses the sed command to remove all lines containing "Failed toresolve" from the output file. The -i flag allows in-place editing of the file, and the /Failed to resolve/d command deletes the matching lines.
 
 That's the explanation of the script. To use it, follow these steps:
