@@ -76,7 +76,7 @@ This is the main loop that reads each line from the input file and resolves the 
 # Remove the lines with "Failed to resolve" from the output file
 sed -i '/Failed to resolve/d' "$output_file"
 ```
-This line uses the sed command to remove all lines containing "Failed toresolve" from the output file. The -i flag allows in-place editing of the file, and the /Failed to resolve/d command deletes the matching lines.
+This line uses the sed command to remove all lines containing "Failed to resolve" from the output file. The -i flag allows in-place editing of the file, and the /Failed to resolve/d command deletes the matching lines.
 
 That's the explanation of the script. 
 # To use it, follow these steps:
