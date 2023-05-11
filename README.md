@@ -27,9 +27,9 @@ if [ ! -f "$input_file" ]; then
   exit 1
 fi
 
+```
 This section checks if the input file exists. If the file does not exist, it displays an error message and exits the script.
 
-```
 ```
 # Create an empty output file
 > "$output_file"
