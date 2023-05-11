@@ -1,6 +1,5 @@
 # Host2IP
-allign=center
-![Alt Text](https://media.giphy.com/media/l49JMe9WDPzJTamwE/giphy.gif)
+<img src="https://media.giphy.com/media/l49JMe9WDPzJTamwE/giphy.gif" width="200" height="100" />
 
 
 Bash script to convert a .txt file of Domains/URL's to IP Addresses in a seperate .txt file 
