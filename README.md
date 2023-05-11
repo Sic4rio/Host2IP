@@ -1,6 +1,6 @@
 # Host2IP
 <div style="display: flex; justify-content: center;">
-  <img src="https://media.giphy.com/media/l49JMe9WDPzJTamwE/giphy.gif" width="800" height="400" />
+  <img src="https://media.giphy.com/media/l49JMe9WDPzJTamwE/giphy.gif" width="600" height="400" />
 </div>
 
 
