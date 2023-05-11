@@ -30,10 +30,10 @@ fi
 This section checks if the input file exists. If the file does not exist, it displays an error message and exits the script.
 
 ```
-
+```
 # Create an empty output file
 > "$output_file"
-
+```
 This line creates an empty output file or overwrites the existing file if it already exists.
 
 ```
